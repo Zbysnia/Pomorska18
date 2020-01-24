@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
-
+import Profile  from './features/profile'
 const useStyles = makeStyles({
     App: {
         height: '100vh',
@@ -40,6 +40,8 @@ const App = () => {
         <div className={styles.Overlay}>
             <div className={styles.App}>
                 <Typography variant={"h1"} className={styles.head}>HALOOO MISNIA GDZIE JEST ZBYSNIA</Typography>
+                <Profile imie={'Smiechul'} paszniak={"Osiedlowy"}/>
+                <Profile imie={'eko'} paszniak={"Ddddobry"}/>
             </div>
         </div>
     )
